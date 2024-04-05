@@ -1,12 +1,14 @@
 void main() {
 
   List<int> lista = [1,2,3,4,6];
-  if(lista.isEmpty){
+  if(lista.isEmpty)
+  {
     print("Lista vazia!");
-  }else
+    return;
+  }
+  else
   {
     var soma = 0;
-    
     for(int i = 0; i < lista.length; i++)
     {
       soma += lista[i];
